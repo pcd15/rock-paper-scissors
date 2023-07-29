@@ -1,0 +1,43 @@
+#btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 40px;
+}
+
+.button {
+    font-size: 20px;
+    width: 120px;
+    height: 60px;
+    border: none;
+    border-radius: 2px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+
+.button:hover {
+    background-color: black;
+    color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin: 40px;
+}
+
+#endgame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -40px;
+}
